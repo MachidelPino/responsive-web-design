@@ -1,0 +1,57 @@
+// Original Code //
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Donation Form</title>
+</head>
+<body>
+  <h1>Donation Form</h1>
+  <form>
+    
+    Full Name:
+    <input type="text" name="name"></input>
+
+    Email Address:
+    <input type="text" name="email">
+
+    Donation Amount ($):
+    <input type="number" name="amount"></input>
+
+    <input type="checkbox" name="newsletter"></input>
+    Subscribe
+
+    <input type="submit" value="Send"></input>
+  </form>
+</body>
+</html>
+-->
+
+// Debugged Code //
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Donation Form</title>
+</head>
+<body>
+  <h1>Donation Form</h1>
+  <form>
+    
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="amount">Donation Amount ($):</label>
+    <input type="number" name="amount" id="amount" required>
+
+    <input type="checkbox" id="newsletter" name="newsletter">
+    <label for="newsletter">Subscribe</label>
+
+    <input action="" type="submit" value="Send">
+  </form>
+</body>
+</html>
