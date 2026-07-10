@@ -1,0 +1,19 @@
+body {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  min-height: calc(100vh - 100px);
+}
+
+hr, section {
+  width: 50%;
+  margin: auto;
+}
+
+h1, h2 {
+  text-align: center;
+}
